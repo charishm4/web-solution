@@ -1,0 +1,169 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color:  #f2f2f2;
+}
+.container-fluid {
+  padding: .5% 3% .5%;
+}
+hr {
+    width: 20%;
+    margin: 40px auto;
+    background-color:#000;
+    color:#000;
+}
+h1 {
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.2;
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: #000;
+    text-align: center;
+    padding-top: 5%;
+    padding: 5% 20% 5% 20%;
+    padding-bottom: 0;
+}
+
+/* Navigation Bar */
+
+#title {
+  background-color:#751aff;
+  color: #fff;
+  padding-left: 2%;
+}
+.navbar-brand {
+  font-family: Ubuntu;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+.nav-link {
+font-family: 'Montserrat';
+color: #fff
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+/* bit coin image */
+.coin{
+  float:right;
+  width: 14%;
+  padding-right: 2%;
+}
+
+.section-1-para{
+  font-family: 'Montserrat';
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 0;
+}
+
+.img{
+width:22%;
+margin-left: 5%;
+margin-top: 0;
+float: left;
+}
+/* buttons */
+ .btn1,.btn2{
+  border-radius: 20px;
+  text-align: center;
+  position:relative;
+  left:110px; top:60px;
+  margin-left: 15px;
+  margin-bottom: 20px;
+}
+
+#buttons{
+  padding:5%;
+}
+
+/* features section */
+.feature{
+  font-family: 'Ubuntu';
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #000;
+  margin-left:2%;
+  border-bottom: 1px solid currentColor;
+  width: 24%;
+  position: static;
+  margin-top: 80px;
+}
+
+/* projects section */
+#projects{
+  padding-left: 5% 5% 5% 5%;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+.project-box{
+border-radius: 35px 35px 35px 35px;
+background-color: #f2e6ff;
+padding-right: 0;
+padding-left: 0;
+border: 20px solid #f2f2f2;
+}
+.circle{
+ margin-left: 5%;
+ margin-right: auto;
+ margin-top:20px;
+ color: #cc9966;
+}
+.in-2-days{
+background-color: #fff;
+float: right;
+border-radius: 30px;
+margin-top: 30px;
+margin-right: 10px;
+color:#7300e6;
+padding-top: 0;
+padding-bottom: 0;
+}
+.small-circle{
+  color:#7300e6;
+}
+
+/* box  */
+.h2-style{
+ color:#7300e6;
+ font-weight:300;
+ margin-left: 5%;
+}
+.rowheader{
+margin-left: 5%;
+font-weight: bold;
+font-size: 2.5rem;
+margin-bottom: 20px;
+margin-top: 10px;
+}
+.para{
+ margin-left: 5%;
+}
+
+/* tables in box */
+
+table{
+ border-spacing: 0 15px;
+}
+.td{
+ width: 150px;
+ text-align: center;
+ padding: 5px;
+}
+.td-style{
+ color:#7300e6;
+ font-weight:300;
+ width: 150px;
+ text-align: center;
+ padding: 5px;
+ font-size: 1.7rem;
+}
+
+@media (max-width: 1028px) {
+  .feature{
+    width:40%;
+  }
